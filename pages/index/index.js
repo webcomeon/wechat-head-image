@@ -390,11 +390,14 @@ Page({
   },
 
   clickMakeNewImage: function(e) {
-    if (this.data.interstitialAd) {
-      this.data.interstitialAd.show().catch((err) => {
-        console.error(err)
-      })
-    }
+    // 检查点击广告
+    // if (this.data.interstitialAd) {
+    //   this.data.interstitialAd.show().catch((err) => {
+    //     console.error(err)
+    //   })
+    // }
+    // 直接保存
+    this.clickMakeNewImageAfterAd()
   },
 
   _saveImage: function() {

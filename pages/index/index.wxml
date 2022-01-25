@@ -16,11 +16,11 @@
       <text class="userinfo-tips">tips:点击「获取微信头像」按钮获取微信头像。\r\n 或点击上方头像，从相册选择图片。</text>
     </view>
   <view class="userinfo-buttonview">
-    <picker hidden="true" bindchange="onChangePickerFestival" mode="selector" value="{{festivalIndex}}" range="{{festivalNames}}">
+    <!-- <picker hidden="true" bindchange="onChangePickerFestival" mode="selector" value="{{festivalIndex}}" range="{{festivalNames}}">
       <view hidden="true">
         <button class="userinfo-jieributton" style="width: 100px; height: 35px;">节日: {{currentFestival}}</button>
       </view>
-    </picker>
+    </picker> -->
     <view>
       <button class="userinfo-makebutton" style="width: 135px; height: 35px;" bindtap="getUserProfile">获取微信头像</button>
     </view>
